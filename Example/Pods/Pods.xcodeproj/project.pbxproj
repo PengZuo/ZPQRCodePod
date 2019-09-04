@@ -8,14 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		0014BF31720433B5698DB79AE14D29A7 /* Pods-ZPQRCodePod_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E40129CA7A3D222092ED61FDE8590CC /* Pods-ZPQRCodePod_Tests-dummy.m */; };
+		02B61C66275829AD96787770E8242B2F /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 0693B5C8B3B405EFFFD6A5040127E84E /* ReplaceMe.m */; };
+		0325C35963185406AEC1491449063142 /* ZPQRCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 4147D6BEFFB806F8787E97C6B7420E6A /* ZPQRCode.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0953EAA57E8F892E83736A46246537E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		1BE97B7E489D9C48A7C24F9FBC7906DD /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E7B4C2725C0AC060C379484228BB70D /* ReplaceMe.m */; };
+		2CA84DA8C4DC8508CE0DB08A633EDE39 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		2D74A3B2CC46AEED951E5FE4E52A8030 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		3A3D4F0F717DF52DC7B7B6A9D68A95E2 /* ZPQRCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 9228618EF9891DA5F54C3B8715110FD7 /* ZPQRCode.m */; };
 		46351CF3E0E384B5253C814E4A5C3D9D /* Pods-ZPQRCodePod_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D85AA97279EB8B33DEDB754D675E67CE /* Pods-ZPQRCodePod_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D846042CD3301427BE7179AE1B07DF6 /* ZPQRCodePod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B02900D80CF32E9E9AC90F924436917 /* ZPQRCodePod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6BE80A71C8DA0EC13D18B2020F174460 /* Pods-ZPQRCodePod_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EB1B49226509033717D38540A2B25A4 /* Pods-ZPQRCodePod_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6EE8CCF88F9E4E1FF60A061AF3922D20 /* ZPQRCodePod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 76EDB38AE60DAEE323A328350B8B7BD7 /* ZPQRCodePod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		94FD632363ABE62F4E737B44FD691DA8 /* ZPQRCodePod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ACAF53EB17C5342283CF14BC0C10FF4B /* ZPQRCodePod-dummy.m */; };
-		982EA492CF5A92ABDFDA817301D3C263 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		7359AB9EE499FFF04227F8A2059B98C8 /* ZPQRCodePod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E2940EAB311EEECC13F8D000671ECE19 /* ZPQRCodePod-dummy.m */; };
 		E91A3DC88DF2713138498F64C8EE2FD4 /* Pods-ZPQRCodePod_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 73FAB53EDD0D5DC419F480D932B91979 /* Pods-ZPQRCodePod_Example-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -39,36 +41,38 @@
 /* Begin PBXFileReference section */
 		0270CC1C70F569FF742A9005E4A7F303 /* Pods-ZPQRCodePod_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZPQRCodePod_Example-Info.plist"; sourceTree = "<group>"; };
 		04F79278CD87B503274F8186ABE8D8A7 /* Pods_ZPQRCodePod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZPQRCodePod_Tests.framework; path = "Pods-ZPQRCodePod_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0693B5C8B3B405EFFFD6A5040127E84E /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = ZPQRCodePod/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		0B93046D0D75C042C9EA6F8949D52577 /* Pods-ZPQRCodePod_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZPQRCodePod_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		0E7B4C2725C0AC060C379484228BB70D /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = ZPQRCodePod/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		0EB1B49226509033717D38540A2B25A4 /* Pods-ZPQRCodePod_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZPQRCodePod_Example-umbrella.h"; sourceTree = "<group>"; };
+		1569D363365E187C822FC25AE374865B /* ZPQRCodePod-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZPQRCodePod-Info.plist"; sourceTree = "<group>"; };
 		21B3663A9B625A7721678479D30B3115 /* Pods-ZPQRCodePod_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZPQRCodePod_Example.modulemap"; sourceTree = "<group>"; };
-		2E3868F8A126F9DFA3FABD82785807EE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		316930A23DE1BD326D6D7F3C0569186E /* ZPQRCodePod-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZPQRCodePod-prefix.pch"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3EF32927CBB04F190F735B0CFFAF8DE1 /* Pods-ZPQRCodePod_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZPQRCodePod_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4147D6BEFFB806F8787E97C6B7420E6A /* ZPQRCode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZPQRCode.h; path = ZPQRCodePod/Classes/ZPQRCode.h; sourceTree = "<group>"; };
 		447E1A33DD376A24646465FCA52044C5 /* Pods-ZPQRCodePod_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZPQRCodePod_Example-frameworks.sh"; sourceTree = "<group>"; };
 		450B36A10F6BF2E738DB255227515490 /* Pods-ZPQRCodePod_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZPQRCodePod_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		4AF6357E5AB4FF1B7E1685CAE04F60FE /* Pods-ZPQRCodePod_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZPQRCodePod_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		4B02900D80CF32E9E9AC90F924436917 /* ZPQRCodePod-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZPQRCodePod-umbrella.h"; sourceTree = "<group>"; };
 		4D6889A20DF7F2308D078ACA31EEB7A5 /* Pods-ZPQRCodePod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZPQRCodePod_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		521A011475B4EAA7EAC40D8B0AD6740D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		5E40129CA7A3D222092ED61FDE8590CC /* Pods-ZPQRCodePod_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZPQRCodePod_Tests-dummy.m"; sourceTree = "<group>"; };
+		62D1E597BDCDCF8F289E92D2A3CF6BDD /* ZPQRCodePod.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ZPQRCodePod.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		73FAB53EDD0D5DC419F480D932B91979 /* Pods-ZPQRCodePod_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZPQRCodePod_Example-dummy.m"; sourceTree = "<group>"; };
 		759060760839994CFF9BD5A2C3A18B05 /* ZPQRCodePod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZPQRCodePod.framework; path = ZPQRCodePod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		76B9A0AE163FC7BA0AB60B55B9FC2AF2 /* ZPQRCodePod-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZPQRCodePod-prefix.pch"; sourceTree = "<group>"; };
-		76EDB38AE60DAEE323A328350B8B7BD7 /* ZPQRCodePod-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZPQRCodePod-umbrella.h"; sourceTree = "<group>"; };
 		7979D75378054E979D851370776EFD1D /* Pods-ZPQRCodePod_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZPQRCodePod_Tests.modulemap"; sourceTree = "<group>"; };
+		83BDF0DA1FCD64C0C7830F77C572E7FF /* ZPQRCodePod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZPQRCodePod.xcconfig; sourceTree = "<group>"; };
 		8645F1A237C7E1BE8F60BC170DAE2E1D /* Pods-ZPQRCodePod_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZPQRCodePod_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		8E408E5724DAF9C3083D64388F8B2B9F /* Pods-ZPQRCodePod_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZPQRCodePod_Tests-Info.plist"; sourceTree = "<group>"; };
-		97C94270F496DB35299729776707494B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		9228618EF9891DA5F54C3B8715110FD7 /* ZPQRCode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZPQRCode.m; path = ZPQRCodePod/Classes/ZPQRCode.m; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		ACAF53EB17C5342283CF14BC0C10FF4B /* ZPQRCodePod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZPQRCodePod-dummy.m"; sourceTree = "<group>"; };
-		B773BE28F0A8217A08434866F896A733 /* ZPQRCodePod.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ZPQRCodePod.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		CBDC16CA78019D66BB239B24846437DF /* Pods-ZPQRCodePod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZPQRCodePod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		D17E279860F5C647F19027C1E8D7772A /* ZPQRCodePod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZPQRCodePod.xcconfig; sourceTree = "<group>"; };
+		D332CCA26FFA7D6054BB10CF9BADE001 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		D85AA97279EB8B33DEDB754D675E67CE /* Pods-ZPQRCodePod_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZPQRCodePod_Tests-umbrella.h"; sourceTree = "<group>"; };
-		DA81ADFB51502CD47166BCEBF6F6715A /* ZPQRCodePod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZPQRCodePod.modulemap; sourceTree = "<group>"; };
+		E2940EAB311EEECC13F8D000671ECE19 /* ZPQRCodePod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZPQRCodePod-dummy.m"; sourceTree = "<group>"; };
 		E5E95D8C9792F861D6CF77EB53FA98C8 /* Pods-ZPQRCodePod_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZPQRCodePod_Example.release.xcconfig"; sourceTree = "<group>"; };
 		EC543AD0C3175ACCDADADF9C672F1F29 /* Pods_ZPQRCodePod_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZPQRCodePod_Example.framework; path = "Pods-ZPQRCodePod_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EE9FC7CEE77B265E254D8226C9193F3D /* ZPQRCodePod-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZPQRCodePod-Info.plist"; sourceTree = "<group>"; };
+		F0244121499A54923AF70A3AE8F7F7A5 /* ZPQRCodePod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZPQRCodePod.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,11 +84,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E46F45C01A356EF2EB3004FC50E5C449 /* Frameworks */ = {
+		E3F8A513AD2CDBE9C7C2D915C9ECD355 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				982EA492CF5A92ABDFDA817301D3C263 /* Foundation.framework in Frameworks */,
+				2CA84DA8C4DC8508CE0DB08A633EDE39 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,6 +103,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		05A66C4FE1BDF208C2F3681815138FA9 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CD981E177356FF69B66DD3B0B35FAA62 /* ZPQRCodePod */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		325DC03E4B8ACC7C1B538D8B5B0368F7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -107,20 +119,6 @@
 				759060760839994CFF9BD5A2C3A18B05 /* ZPQRCodePod.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		71BE2A89DC1D2AA4F952DBDCEE04F26A /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				DA81ADFB51502CD47166BCEBF6F6715A /* ZPQRCodePod.modulemap */,
-				D17E279860F5C647F19027C1E8D7772A /* ZPQRCodePod.xcconfig */,
-				ACAF53EB17C5342283CF14BC0C10FF4B /* ZPQRCodePod-dummy.m */,
-				EE9FC7CEE77B265E254D8226C9193F3D /* ZPQRCodePod-Info.plist */,
-				76B9A0AE163FC7BA0AB60B55B9FC2AF2 /* ZPQRCodePod-prefix.pch */,
-				76EDB38AE60DAEE323A328350B8B7BD7 /* ZPQRCodePod-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/ZPQRCodePod";
 			sourceTree = "<group>";
 		};
 		75A462328F48E08549A51D4D4A8A42F5 /* Pods-ZPQRCodePod_Tests */ = {
@@ -139,12 +137,49 @@
 			path = "Target Support Files/Pods-ZPQRCodePod_Tests";
 			sourceTree = "<group>";
 		};
+		A63F6EB7E4BFE4DE7BAFA9F12FF8C545 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F0244121499A54923AF70A3AE8F7F7A5 /* ZPQRCodePod.modulemap */,
+				83BDF0DA1FCD64C0C7830F77C572E7FF /* ZPQRCodePod.xcconfig */,
+				E2940EAB311EEECC13F8D000671ECE19 /* ZPQRCodePod-dummy.m */,
+				1569D363365E187C822FC25AE374865B /* ZPQRCodePod-Info.plist */,
+				316930A23DE1BD326D6D7F3C0569186E /* ZPQRCodePod-prefix.pch */,
+				4B02900D80CF32E9E9AC90F924436917 /* ZPQRCodePod-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ZPQRCodePod";
+			sourceTree = "<group>";
+		};
+		B72DC1540B97199FBEEB1BEDB304F8BF /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				D332CCA26FFA7D6054BB10CF9BADE001 /* LICENSE */,
+				521A011475B4EAA7EAC40D8B0AD6740D /* README.md */,
+				62D1E597BDCDCF8F289E92D2A3CF6BDD /* ZPQRCodePod.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
 				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		CD981E177356FF69B66DD3B0B35FAA62 /* ZPQRCodePod */ = {
+			isa = PBXGroup;
+			children = (
+				0693B5C8B3B405EFFFD6A5040127E84E /* ReplaceMe.m */,
+				4147D6BEFFB806F8787E97C6B7420E6A /* ZPQRCode.h */,
+				9228618EF9891DA5F54C3B8715110FD7 /* ZPQRCode.m */,
+				B72DC1540B97199FBEEB1BEDB304F8BF /* Pod */,
+				A63F6EB7E4BFE4DE7BAFA9F12FF8C545 /* Support Files */,
+			);
+			name = ZPQRCodePod;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		CF0C48E3D70C65B3D1EFCC6722F18081 /* Pods-ZPQRCodePod_Example */ = {
@@ -168,7 +203,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				D7A55B56F2B162AF5DEC3617EEF818B9 /* Development Pods */,
+				05A66C4FE1BDF208C2F3681815138FA9 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				325DC03E4B8ACC7C1B538D8B5B0368F7 /* Products */,
 				D551D4473CFA6F56BC10D27A3DC18F6A /* Targets Support Files */,
@@ -183,27 +218,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D32582BB9B46920E528ACC4F8D0922C3 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				97C94270F496DB35299729776707494B /* LICENSE */,
-				2E3868F8A126F9DFA3FABD82785807EE /* README.md */,
-				B773BE28F0A8217A08434866F896A733 /* ZPQRCodePod.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		D41ACB4AAEB8EE634942F36DEEDA745A /* ZPQRCodePod */ = {
-			isa = PBXGroup;
-			children = (
-				0E7B4C2725C0AC060C379484228BB70D /* ReplaceMe.m */,
-				D32582BB9B46920E528ACC4F8D0922C3 /* Pod */,
-				71BE2A89DC1D2AA4F952DBDCEE04F26A /* Support Files */,
-			);
-			name = ZPQRCodePod;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		D551D4473CFA6F56BC10D27A3DC18F6A /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -211,14 +225,6 @@
 				75A462328F48E08549A51D4D4A8A42F5 /* Pods-ZPQRCodePod_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		D7A55B56F2B162AF5DEC3617EEF818B9 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				D41ACB4AAEB8EE634942F36DEEDA745A /* ZPQRCodePod */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,11 +238,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0868CD6064EFA6A06D4FCA4D3B9496E3 /* Headers */ = {
+		2DAE12475B5A13A4FECE406D62B4B72C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6EE8CCF88F9E4E1FF60A061AF3922D20 /* ZPQRCodePod-umbrella.h in Headers */,
+				0325C35963185406AEC1491449063142 /* ZPQRCode.h in Headers */,
+				5D846042CD3301427BE7179AE1B07DF6 /* ZPQRCodePod-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,12 +298,12 @@
 		};
 		C8E2F9754D7DB8D0EE74C172468BFE87 /* ZPQRCodePod */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D0DC80A5A1456B465B8138BE674A35B5 /* Build configuration list for PBXNativeTarget "ZPQRCodePod" */;
+			buildConfigurationList = F830C65C6415ECADD3D399EBB2ED8563 /* Build configuration list for PBXNativeTarget "ZPQRCodePod" */;
 			buildPhases = (
-				0868CD6064EFA6A06D4FCA4D3B9496E3 /* Headers */,
-				5ACEF87A033234C7BA28096CE4CCD9A9 /* Sources */,
-				E46F45C01A356EF2EB3004FC50E5C449 /* Frameworks */,
-				F5D943E3927EC44D731989ABA16E8178 /* Resources */,
+				2DAE12475B5A13A4FECE406D62B4B72C /* Headers */,
+				AF1A8EEBAC7DACE99AF169A16EC17304 /* Sources */,
+				E3F8A513AD2CDBE9C7C2D915C9ECD355 /* Frameworks */,
+				4E0E4A4DAA9DE101FAAF900C0BEC299A /* Resources */,
 			);
 			buildRules = (
 			);
@@ -343,7 +350,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F5D943E3927EC44D731989ABA16E8178 /* Resources */ = {
+		4E0E4A4DAA9DE101FAAF900C0BEC299A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -368,20 +375,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5ACEF87A033234C7BA28096CE4CCD9A9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1BE97B7E489D9C48A7C24F9FBC7906DD /* ReplaceMe.m in Sources */,
-				94FD632363ABE62F4E737B44FD691DA8 /* ZPQRCodePod-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		96D027E921BA9027B1126DCDD8E7A68B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				0014BF31720433B5698DB79AE14D29A7 /* Pods-ZPQRCodePod_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF1A8EEBAC7DACE99AF169A16EC17304 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02B61C66275829AD96787770E8242B2F /* ReplaceMe.m in Sources */,
+				3A3D4F0F717DF52DC7B7B6A9D68A95E2 /* ZPQRCode.m in Sources */,
+				7359AB9EE499FFF04227F8A2059B98C8 /* ZPQRCodePod-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,9 +411,9 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0696D388F994164405A299BB29EB522D /* Release */ = {
+		20A90DEE6065EDCA8DA2BDB3A11A8380 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D17E279860F5C647F19027C1E8D7772A /* ZPQRCodePod.xcconfig */;
+			baseConfigurationReference = 83BDF0DA1FCD64C0C7830F77C572E7FF /* ZPQRCodePod.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -592,9 +600,9 @@
 			};
 			name = Debug;
 		};
-		DFB5B8A32ECA7EC158250E2B2EBE72E4 /* Debug */ = {
+		C5A479C6FC0F8F3EE0E54D9A9D48839C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D17E279860F5C647F19027C1E8D7772A /* ZPQRCodePod.xcconfig */;
+			baseConfigurationReference = 83BDF0DA1FCD64C0C7830F77C572E7FF /* ZPQRCodePod.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -754,11 +762,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D0DC80A5A1456B465B8138BE674A35B5 /* Build configuration list for PBXNativeTarget "ZPQRCodePod" */ = {
+		F830C65C6415ECADD3D399EBB2ED8563 /* Build configuration list for PBXNativeTarget "ZPQRCodePod" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DFB5B8A32ECA7EC158250E2B2EBE72E4 /* Debug */,
-				0696D388F994164405A299BB29EB522D /* Release */,
+				C5A479C6FC0F8F3EE0E54D9A9D48839C /* Debug */,
+				20A90DEE6065EDCA8DA2BDB3A11A8380 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

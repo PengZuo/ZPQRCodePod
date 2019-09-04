@@ -1,5 +1,5 @@
 PODS:
-  - ZPQRCodePod (0.1.0)
+  - ZPQRCodePod (0.1.1)
 
 DEPENDENCIES:
   - ZPQRCodePod (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ZPQRCodePod: aa4e8b087f6da69e827e5a36d6360fe804fc35ec
+  ZPQRCodePod: 4eb99e6e01d74c35851990cb7d7f5911bd3ecb15
 
 PODFILE CHECKSUM: dd5400adf5a0b415364f6a3707a960688bf98bd4
 

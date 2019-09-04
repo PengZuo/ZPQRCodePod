@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "ZPQRCode.h"
 
 FOUNDATION_EXPORT double ZPQRCodePodVersionNumber;
 FOUNDATION_EXPORT const unsigned char ZPQRCodePodVersionString[];
