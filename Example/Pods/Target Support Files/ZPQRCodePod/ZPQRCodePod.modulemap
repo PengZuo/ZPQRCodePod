@@ -1,0 +1,6 @@
+framework module ZPQRCodePod {
+  umbrella header "ZPQRCodePod-umbrella.h"
+
+  export *
+  module * { export * }
+}

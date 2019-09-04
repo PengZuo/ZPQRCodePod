@@ -1,0 +1,16 @@
+PODS:
+  - ZPQRCodePod (0.1.0)
+
+DEPENDENCIES:
+  - ZPQRCodePod (from `../`)
+
+EXTERNAL SOURCES:
+  ZPQRCodePod:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZPQRCodePod: aa4e8b087f6da69e827e5a36d6360fe804fc35ec
+
+PODFILE CHECKSUM: dd5400adf5a0b415364f6a3707a960688bf98bd4
+
+COCOAPODS: 1.7.0
